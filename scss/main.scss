@@ -1,0 +1,398 @@
+$white: #FFFFFF;
+$header-color: #EBCB80;
+$black: #4B4B4B;
+$font-sm: 12px;
+$font-md: 16px;
+$font-lg: 18px;
+
+$font-family: ".AppleSystemUIFont";
+$font-header: ".SFNSDisplay";
+$font-paragraph: "Helvetica";
+
+.no-padding{
+  padding:0;
+
+}
+.section-one {
+  background-image: url('../images/BackgroundHeros/landingbackground.png');
+  width: 1440px;
+  height: 768px;
+}
+.hofmann-navigation {
+  .hofmann-nav {
+    padding-top: 12px;
+
+    .hoffmann-header {
+      font-family: $font-header;
+      font-size: 36px;
+      color: $header-color;
+      letter-spacing: 2px;
+      text-align: center;
+      padding-top: 0.6rem;
+      padding-left: 7.9rem;
+    }
+    .navbar-nav {
+      .hofmann-item {
+        .hoffmann-link {
+          color: $white;
+          font-size: $font-md;
+          padding-right: 2.5rem;
+          letter-spacing: 1px;
+        }
+        .padding {
+          padding-left: 0.7rem;
+          padding-right: 8.8rem;
+        }
+        .button {
+          background-color: transparent;
+          font-size: $font-md;
+          border-radius:11px;
+          color: $white;
+        }
+
+      }
+      .glyphicon-color {
+        color: $white;
+      }
+    }
+  }
+
+  .hofmann-text {
+    .responsive-text-style {
+      /* Responsive UI Kit: */
+      font-family: $font-family;
+      font-size: $font-lg;
+      color: $white;
+      letter-spacing: 1px;
+      text-shadow: 0 4px 4px rgba(0,0,0,0.50);
+      padding-top: 3.7rem;
+      padding-left: 15.5rem;
+    }
+    .hofmann-text-style {
+      /* HOFMANN: */
+      font-family: $font-header;
+      font-size: 64px;
+      color: $header-color;
+      letter-spacing: 2px;
+      padding-top: 9rem;
+      padding-left: 15.5rem;
+    }
+    .subhead-text-style {
+      /* Dealing With Technic: */
+      font-family: $font-header;
+      color: $white;
+      letter-spacing: 0;
+      line-height: 36px;
+      padding-top: 1.4rem;
+      padding-left: 15.5rem;
+    }
+    .para-text-style {
+      /* Every new computer t: */
+      font-family: $font-paragraph;
+      font-size: $font-md;
+      color: $white;
+      letter-spacing: 0;
+      line-height: 24px;
+      padding-top: 1rem;
+      padding-left: 15.5rem;
+    }
+    .store-buttons {
+      padding-top: 6rem;
+      padding-left: 15.5rem;
+      padding-bottom: 3.8rem;
+      .app-button {
+        padding-right: 1.2rem;
+      }
+    }
+    .hero-phone {
+      padding-top: 8.8rem;
+      text-align: center;
+    }
+  }
+}
+
+.result-container {
+  width: 1440px;
+  height: 682px;
+  .result-header {
+    /* Stunning Results: */
+    font-family: $font-header;
+    font-size: 44px;
+    color: $black;
+    letter-spacing: -1.6px;
+    line-height: 48px;
+    padding-top: 4.3rem;
+    text-align: center;
+  }
+  .result-text {
+    /* Just look to the sta: */
+    font-family: $font-paragraph;
+    font-size: $font-md;
+    color: $black;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    padding-top: 1.4rem;
+  }
+  .estimation-container {
+    padding-top: 3.3rem;
+    width: 1440px;
+    height: 682px;
+    .stat-image {
+      text-align: center;
+      .text-block {
+        /* 74,98: */
+        font-family: $font-header;
+        font-size: 64px;
+        color: $black;
+        letter-spacing: -1.6px;
+        line-height: 42px;
+        margin-top: -122px;
+      }
+    }
+    .stat-header {
+      /* total conversion: */
+      font-family: $font-family;
+      font-size: $font-lg;
+      color: $black;
+      letter-spacing: 1px;
+      text-align: center;
+      line-height: 30px;
+      padding-top: 6.8rem;
+      p{
+        margin-bottom: 0;
+      }
+    }
+    .stat-text {
+      /* The past few years h: */
+      font-family: $font-paragraph;
+      font-size: $font-md;
+      color: $black;
+      letter-spacing: 0;
+      text-align: center;
+      line-height: 24px;
+      padding-right: 5.7rem;
+      padding-left: 5.7rem;
+    }
+  }
+
+
+}
+
+.client-container {
+  background-image: url('../images/BackgroundHeros/clientbackground.png');
+  width: 1440px;
+  height: 620px;
+  .client-header {
+    /* What Clients are say: */
+    font-family: $font-header;
+    font-size: 44px;
+    color: $white;
+    letter-spacing: -1.6px;
+    text-align: center;
+    line-height: 48px;
+    padding-top: 5.7rem;
+  }
+  .client-sign {
+    /* “: */
+    font-family: $font-header;
+    font-size: 144px;
+    color: $header-color;
+    letter-spacing: 0;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: -70px;
+  }
+  .client-text {
+    /* Businesses at presen: */
+    font-family: $font-paragraph;
+    font-size: 24px;
+    color: $white;
+    letter-spacing: 0;
+    line-height: 36px;
+    text-shadow: 0 0 4px rgba(0,0,0,0.50);
+    padding-right:21rem;
+    padding-left:21rem;
+  }
+  .client-image {
+    text-align: end;
+    padding-top: 2.9rem;
+  }
+  .client-list {
+    padding-top: 2.9rem;
+    padding-left: 0;
+    margin-left: -20px;
+    .client-name {
+      /* Ophelia Holland: */
+      font-family: $font-paragraph;
+      font-size: $font-lg;
+      color: $header-color;
+      letter-spacing: 0;
+      line-height: 30px;
+      padding-left: 2rem;
+    }
+    .client-insta {
+      /* @ophelia_holland: */
+      font-family: $font-family;
+      font-size: $font-md;
+      color: $white;
+      letter-spacing: 0;
+      line-height: 30px;
+      padding-left: 2rem;
+    }
+  }
+
+}
+
+.people-container {
+  width: 1440px;
+  height: 802px;
+  .carousel-indicators li {
+    border-radius: 12px;
+    height: 12px;
+    width: 12px;
+    border: 1px solid #404040;
+    background-color: transparent;
+    bottom: -60px
+  }
+  .carousel-indicators .active {
+    background-color: #404040;
+    max-width: 12px;
+    height: 12px;
+  }
+  .people-header {
+      /* What People Say: */
+      font-family: $font-header;
+      font-size: 44px;
+      color: $black;
+      letter-spacing: -1.6px;
+      text-align: center;
+      line-height: 48px;
+      padding-top: 4rem;
+    }
+  .people-box {
+    padding-top: 4.7rem;
+    .people-comments {
+      width: 550px;
+      height: 348px;
+      margin-left: auto;
+      /* gold-bg: */
+      background: $header-color;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.50);
+      border-radius: 8px;
+      /* light-overlay: */
+      background-image: linear-gradient(-225deg, rgba(255,255,255,0.50) 0%, rgba(255,255,255,0.00) 100%);
+      .people-sign {
+        /* “: */
+        font-family: $font-header;
+        font-size: 64px;
+        color: $black;
+        letter-spacing: 0;
+        padding-top: 2rem;
+        font-style: italic;
+        text-align: center;
+      }
+        .people-text {
+          /* It is not because th: */
+          font-family: $font-paragraph;
+          font-size: $font-lg;
+          color: $black;
+          letter-spacing: 0;
+          line-height: 24px;
+          padding-left: 4rem;
+          padding-right: 4rem;
+        }
+        .people-name {
+          /* Seneca the Younger: */
+          font-family: $font-paragraph;
+          font-size: 24px;
+          color: $black;
+          letter-spacing: 0;
+          padding-left: 4rem;
+          padding-right: 4rem;
+          padding-top: 1rem;
+        }
+        .people-title {
+          /* Editor in okodesign.: */
+          font-family: $font-paragraph;
+          font-size: $font-md;
+          color: $black;
+          letter-spacing: 0;
+          line-height: 30px;
+          padding-left: 4rem;
+          padding-right: 4rem;
+          margin-bottom: 0;
+        }
+    }
+    .people-image {
+      text-align: end;
+      img {
+        margin-top: -64px;
+        margin-right: 64px;
+      }
+    }
+  }
+  .people1-box {
+    padding-top: 10.7rem;
+    .people-view {
+      /* platinum-bg: */
+      background: $black;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.50);
+      border-radius: 8px;
+      /* light-overlay: */
+      background-image: linear-gradient(-223deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.40) 100%);
+      width: 550px;
+      height: 348px;
+      .people1-sign {
+        /* “: */
+        font-family: $font-header;
+        font-size: 64px;
+        color: $white;
+        letter-spacing: 0;
+        padding-top: 2rem;
+        font-style: italic;
+        text-align: center;
+      }
+      .people1-text {
+        /* It is not because th: */
+        font-family: $font-family;
+        font-size: $font-lg;
+        color: $white;
+        letter-spacing: 0;
+        line-height: 24px;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        /* Attending a trade sh: */
+      }
+      .people1-name {
+        /* Seneca the Younger: */
+        font-family: $font-family;
+        font-size: 24px;
+        color: $white;
+        letter-spacing: 0;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 1rem;
+      }
+      .people1-title {
+        /* Editor in okodesign.: */
+        font-family: $font-family;
+        font-size: $font-md;
+        color: $white;
+        letter-spacing: 0;
+        line-height: 30px;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-bottom: 0;
+      }
+    }
+    .people1-image {
+      text-align: end;
+      img {
+        margin-top: -64px;
+        margin-right: 206px;
+      }
+    }
+  }
+
+}

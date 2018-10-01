@@ -1,0 +1,380 @@
+@charset "UTF-8";
+
+/*###Tablet(medium)###*/
+  /*Style*/
+  .no-padding {
+    padding: 0;
+  }
+
+  .section-one {
+    background-image: url("../images/BackgroundHeros/landingbackground.png");
+    max-width: 1440px;
+    max-height: 768px;
+  }
+
+  .hofmann-navigation .hofmann-nav {
+    padding-top: 12px;
+  }
+  .hofmann-navigation .hofmann-nav .hoffmann-header {
+    font-family: ".SFNSDisplay";
+    font-size: 36px;
+    color: #EBCB80;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 0.6rem;
+    padding-left: 7.9rem;
+  }
+  .hofmann-navigation .hofmann-nav .navbar-nav .hofmann-item .hoffmann-link {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-right: 2.5rem;
+    letter-spacing: 1px;
+  }
+  .hofmann-navigation .hofmann-nav .navbar-nav .hofmann-item .padding {
+    padding-left: 0.7rem;
+    padding-right: 8.8rem;
+  }
+  .hofmann-navigation .hofmann-nav .navbar-nav .hofmann-item .button {
+    background-color: transparent;
+    font-size: 16px;
+    border-radius: 11px;
+    color: #FFFFFF;
+  }
+  .hofmann-navigation .hofmann-nav .navbar-nav .glyphicon-color {
+    color: #FFFFFF;
+  }
+  .hofmann-navigation .hofmann-text .responsive-text-style {
+    /* Responsive UI Kit: */
+    font-family: ".AppleSystemUIFont";
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    padding-top: 3.7rem;
+    padding-left: 15.5rem;
+  }
+  .hofmann-navigation .hofmann-text .hofmann-text-style {
+    /* HOFMANN: */
+    font-family: ".SFNSDisplay";
+    font-size: 64px;
+    color: #EBCB80;
+    letter-spacing: 2px;
+    padding-top: 9rem;
+    padding-left: 15.5rem;
+  }
+  .hofmann-navigation .hofmann-text .subhead-text-style {
+    /* Dealing With Technic: */
+    font-family: ".SFNSDisplay";
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 36px;
+    padding-top: 1.4rem;
+    padding-left: 15.5rem;
+  }
+  .hofmann-navigation .hofmann-text .para-text-style {
+    /* Every new computer t: */
+    font-family: "Helvetica";
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding-top: 1rem;
+    padding-left: 15.5rem;
+  }
+  .hofmann-navigation .hofmann-text .store-buttons {
+    padding-top: 6rem;
+    padding-left: 15.5rem;
+    padding-bottom: 3.8rem;
+  }
+  .hofmann-navigation .hofmann-text .store-buttons .app-button {
+    padding-right: 1.2rem;
+  }
+  .hofmann-navigation .hofmann-text .hero-phone {
+    padding-top: 8.8rem;
+    text-align: center;
+  }
+
+  .result-container {
+    max-width: 1440px;
+    max-height: 682px;
+  }
+  .result-container .result-header {
+    /* Stunning Results: */
+    font-family: ".SFNSDisplay";
+    font-size: 44px;
+    color: #4B4B4B;
+    letter-spacing: -1.6px;
+    line-height: 48px;
+    padding-top: 4.3rem;
+    text-align: center;
+  }
+  .result-container .result-text {
+    /* Just look to the sta: */
+    font-family: "Helvetica";
+    font-size: 16px;
+    color: #4B4B4B;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    padding-top: 1.4rem;
+  }
+  .result-container .estimation-container {
+    padding-top: 3.3rem;
+    width: 1440px;
+    height: 682px;
+  }
+  .result-container .estimation-container .stat-image {
+    text-align: center;
+  }
+  .result-container .estimation-container .stat-image .text-block {
+    /* 74,98: */
+    font-family: ".SFNSDisplay";
+    font-size: 64px;
+    color: #4B4B4B;
+    letter-spacing: -1.6px;
+    line-height: 42px;
+    margin-top: -122px;
+  }
+  .result-container .estimation-container .stat-header {
+    /* total conversion: */
+    font-family: ".AppleSystemUIFont";
+    font-size: 18px;
+    color: #4B4B4B;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 6.8rem;
+  }
+  .result-container .estimation-container .stat-header p {
+    margin-bottom: 0;
+  }
+  .result-container .estimation-container .stat-text {
+    /* The past few years h: */
+    font-family: "Helvetica";
+    font-size: 16px;
+    color: #4B4B4B;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    padding-right: 5.7rem;
+    padding-left: 5.7rem;
+  }
+
+  .client-container {
+    background-image: url("../images/BackgroundHeros/clientbackground.png");
+    width: 1440px;
+    height: 620px;
+  }
+  .client-container .client-header {
+    /* What Clients are say: */
+    font-family: ".SFNSDisplay";
+    font-size: 44px;
+    color: #FFFFFF;
+    letter-spacing: -1.6px;
+    text-align: center;
+    line-height: 48px;
+    padding-top: 5.7rem;
+  }
+  .client-container .client-sign {
+    /* “: */
+    font-family: ".SFNSDisplay";
+    font-size: 144px;
+    color: #EBCB80;
+    letter-spacing: 0;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: -70px;
+  }
+  .client-container .client-text {
+    /* Businesses at presen: */
+    font-family: "Helvetica";
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 36px;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    padding-right: 21rem;
+    padding-left: 21rem;
+  }
+  .client-container .client-image {
+    text-align: end;
+    padding-top: 2.9rem;
+  }
+  .client-container .client-list {
+    padding-top: 2.9rem;
+    padding-left: 0;
+    margin-left: -20px;
+  }
+  .client-container .client-list .client-name {
+    /* Ophelia Holland: */
+    font-family: "Helvetica";
+    font-size: 18px;
+    color: #EBCB80;
+    letter-spacing: 0;
+    line-height: 30px;
+    padding-left: 2rem;
+  }
+  .client-container .client-list .client-insta {
+    /* @ophelia_holland: */
+    font-family: ".AppleSystemUIFont";
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 30px;
+    padding-left: 2rem;
+  }
+
+  .people-container {
+    width: 1440px;
+    height: 802px;
+  }
+  .people-container .carousel-indicators li {
+    border-radius: 12px;
+    height: 12px;
+    width: 12px;
+    border: 1px solid #404040;
+    background-color: transparent;
+    bottom: -60px;
+  }
+  .people-container .carousel-indicators .active {
+    background-color: #404040;
+    max-width: 12px;
+    height: 12px;
+  }
+  .people-container .people-header {
+    /* What People Say: */
+    font-family: ".SFNSDisplay";
+    font-size: 44px;
+    color: #4B4B4B;
+    letter-spacing: -1.6px;
+    text-align: center;
+    line-height: 48px;
+    padding-top: 4rem;
+  }
+  .people-container .people-box {
+    padding-top: 4.7rem;
+  }
+  .people-container .people-box .people-comments {
+    width: 550px;
+    height: 348px;
+    margin-left: auto;
+    /* gold-bg: */
+    background: #EBCB80;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    /* light-overlay: */
+    background-image: linear-gradient(-225deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  }
+  .people-container .people-box .people-comments .people-sign {
+    /* “: */
+    font-family: ".SFNSDisplay";
+    font-size: 64px;
+    color: #4B4B4B;
+    letter-spacing: 0;
+    padding-top: 2rem;
+    font-style: italic;
+    text-align: center;
+  }
+  .people-container .people-box .people-comments .people-text {
+    /* It is not because th: */
+    font-family: "Helvetica";
+    font-size: 18px;
+    color: #4B4B4B;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .people-container .people-box .people-comments .people-name {
+    /* Seneca the Younger: */
+    font-family: "Helvetica";
+    font-size: 24px;
+    color: #4B4B4B;
+    letter-spacing: 0;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+  }
+  .people-container .people-box .people-comments .people-title {
+    /* Editor in okodesign.: */
+    font-family: "Helvetica";
+    font-size: 16px;
+    color: #4B4B4B;
+    letter-spacing: 0;
+    line-height: 30px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-bottom: 0;
+  }
+  .people-container .people-box .people-image {
+    text-align: end;
+  }
+  .people-container .people-box .people-image img {
+    margin-top: -64px;
+    margin-right: 64px;
+  }
+  .people-container .people1-box {
+    padding-top: 10.7rem;
+  }
+  .people-container .people1-box .people-view {
+    /* platinum-bg: */
+    background: #4B4B4B;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    /* light-overlay: */
+    background-image: linear-gradient(-223deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+    width: 550px;
+    height: 348px;
+  }
+  .people-container .people1-box .people-view .people1-sign {
+    /* “: */
+    font-family: ".SFNSDisplay";
+    font-size: 64px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    padding-top: 2rem;
+    font-style: italic;
+    text-align: center;
+  }
+  .people-container .people1-box .people-view .people1-text {
+    /* It is not because th: */
+    font-family: ".AppleSystemUIFont";
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    /* Attending a trade sh: */
+  }
+  .people-container .people1-box .people-view .people1-name {
+    /* Seneca the Younger: */
+    font-family: ".AppleSystemUIFont";
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+  }
+  .people-container .people1-box .people-view .people1-title {
+    /* Editor in okodesign.: */
+    font-family: ".AppleSystemUIFont";
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 30px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: 0;
+  }
+  .people-container .people1-box .people1-image {
+    text-align: end;
+  }
+  .people-container .people1-box .people1-image img {
+    margin-top: -64px;
+    margin-right: 206px;
+  }
+
+
+/*# sourceMappingURL=style.css.map */
